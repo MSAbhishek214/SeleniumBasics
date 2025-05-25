@@ -14,8 +14,6 @@ public class WindowHandling {
 
 	public static void main(String[] args) {
 
-		// https://rahulshettyacademy.com/loginpagePractise/
-
 		// Creating a web driver object for Chrome
 		WebDriver driver = new ChromeDriver();
 
