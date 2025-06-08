@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 public class SetupAndTearDown {
 	// Create a web driver object
@@ -15,13 +16,14 @@ public class SetupAndTearDown {
 	WebDriverWait wait;
 
 	@BeforeMethod
-	public void setup() {
+	@Parameters({"baseURL"})
+	public void setup(String baseURL) {
 		// Initializing WebDriver for Chrome browser
 		driver = new ChromeDriver();
 		// Create a wait object for handling explicit wait scenarios
 		wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		// Navigating to the login practice page
-		driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		driver.get(baseURL);
 	}
 
 	@AfterMethod

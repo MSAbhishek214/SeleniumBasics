@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SeleniumBasics">
   <test name="Test">
+  <parameter name="baseURL" value="https://rahulshettyacademy.com/locatorspractice/"></parameter>
   <classes>
   <class name="tests.LocatorsTest"></class>
   <class name="tests.LocatorsUsingCSSTest"></class>
