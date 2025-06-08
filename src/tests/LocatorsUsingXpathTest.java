@@ -1,32 +1,11 @@
 package tests;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LocatorsUsingXpathTest {
-	// Create a web driver object
-	WebDriver driver;
-	// Create a Web driver wait object
-	WebDriverWait wait;
-
-	@BeforeMethod
-	public void setup() {
-		// Initializing WebDriver for Chrome browser
-		driver = new ChromeDriver();
-		// Create a wait object for handling explicit wait scenarios
-		wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-		// Navigating to the login practice page
-		driver.get("https://rahulshettyacademy.com/locatorspractice/");
-	}
+public class LocatorsUsingXpathTest extends SetupAndTearDown {
 
 	@Test
 	public void LoginTest() {
@@ -91,10 +70,5 @@ public class LocatorsUsingXpathTest {
 				"Hello " + name + ",");
 		// clicking on the log out button
 		driver.findElement(By.xpath("//button[@class='logout-btn']")).click();
-	}
-
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
 	}
 }
