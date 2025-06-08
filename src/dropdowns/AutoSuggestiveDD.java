@@ -1,4 +1,4 @@
-package basics;
+package dropdowns;
 
 import java.time.Duration;
 import java.util.List;

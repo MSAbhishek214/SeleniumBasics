@@ -1,4 +1,4 @@
-package basics;
+package locators;
 
 import java.time.Duration;
 

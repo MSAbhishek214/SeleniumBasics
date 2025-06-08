@@ -4,6 +4,9 @@
   <test name="Test">
   <classes>
   <class name="tests.LocatorsTest"></class>
+  <class name="tests.LocatorsUsingCSSTest"></class>
+  <class name="tests.LocatorsUsingXpathPCSTest"></class>
+  <class name="tests.LocatorsUsingXpathTest"></class>
   </classes> <!-- Classes-->
   </test> <!-- Test -->
 </suite> <!-- SeleniumBasics -->
