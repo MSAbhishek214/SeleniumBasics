@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LocatorsTest">
+      <class name="tests.LocatorsUsingXpathPCSTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="LoginTest"/>
+          <include name="successfulLoginAndLogoutTest"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.LocatorsTest -->
+      </class> <!-- tests.LocatorsUsingXpathPCSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
