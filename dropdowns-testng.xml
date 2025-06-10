@@ -5,6 +5,8 @@
   <parameter name="baseURL" value="https://rahulshettyacademy.com/dropdownsPractise/"></parameter>
   <classes>
   <class name="tests.AutoSuggestiveDDTest"></class>
+  <class name="tests.DropdownDynamicTest"></class>
+  <class name="tests.DropdownLocatorsTest"></class>
   </classes> <!-- Classes-->
   </test> <!-- Test -->
 </suite> <!-- SeleniumBasics -->

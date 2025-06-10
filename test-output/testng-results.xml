@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-08T22:09:04 IST" name="SeleniumBasics" finished-at="2025-06-08T22:09:07 IST" duration-ms="2532">
+  <suite started-at="2025-06-10T08:01:19 GMT-07:00" name="SeleniumBasics" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="11040">
     <groups>
     </groups>
-    <test started-at="2025-06-08T22:09:04 IST" name="Test" finished-at="2025-06-08T22:09:07 IST" duration-ms="2532">
-      <class name="tests.AutoSuggestiveDDTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutoSuggestiveDDTest@4218d6a3]" started-at="2025-06-08T22:09:04 IST" name="setup" finished-at="2025-06-08T22:09:06 IST" duration-ms="1650" status="PASS">
+    <test started-at="2025-06-10T08:01:19 GMT-07:00" name="Test" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="11040">
+      <class name="tests.DropdownDynamicTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DropdownDynamicTest@7e6f74c]" started-at="2025-06-10T08:01:23 GMT-07:00" name="setup" finished-at="2025-06-10T08:01:25 GMT-07:00" duration-ms="2583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateCorrectDropDownSelected()[pri:0, instance:tests.AutoSuggestiveDDTest@4218d6a3]" started-at="2025-06-08T22:09:06 IST" name="validateCorrectDropDownSelected" finished-at="2025-06-08T22:09:07 IST" duration-ms="733" status="PASS">
+        <test-method signature="validateDynamicDropdown()[pri:0, instance:tests.DropdownDynamicTest@7e6f74c]" started-at="2025-06-10T08:01:25 GMT-07:00" name="validateDynamicDropdown" finished-at="2025-06-10T08:01:26 GMT-07:00" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDynamicDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownDynamicTest@7e6f74c]" started-at="2025-06-10T08:01:26 GMT-07:00" name="tearDown" finished-at="2025-06-10T08:01:26 GMT-07:00" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DropdownDynamicTest -->
+      <class name="tests.DropdownLocatorsTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DropdownLocatorsTest@dd05255]" started-at="2025-06-10T08:01:26 GMT-07:00" name="setup" finished-at="2025-06-10T08:01:29 GMT-07:00" duration-ms="2370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/dropdownsPractise/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAdultCountIncreased()[pri:0, instance:tests.DropdownLocatorsTest@dd05255]" started-at="2025-06-10T08:01:29 GMT-07:00" name="validateAdultCountIncreased" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdultCountIncreased -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownLocatorsTest@dd05255]" started-at="2025-06-10T08:01:30 GMT-07:00" name="tearDown" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DropdownLocatorsTest -->
+      <class name="tests.AutoSuggestiveDDTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutoSuggestiveDDTest@73a1e9a9]" started-at="2025-06-10T08:01:19 GMT-07:00" name="setup" finished-at="2025-06-10T08:01:22 GMT-07:00" duration-ms="2970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/dropdownsPractise/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCorrectDropDownSelected()[pri:0, instance:tests.AutoSuggestiveDDTest@73a1e9a9]" started-at="2025-06-10T08:01:22 GMT-07:00" name="validateCorrectDropDownSelected" finished-at="2025-06-10T08:01:23 GMT-07:00" duration-ms="808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCorrectDropDownSelected -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutoSuggestiveDDTest@4218d6a3]" started-at="2025-06-08T22:09:07 IST" name="tearDown" finished-at="2025-06-08T22:09:07 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutoSuggestiveDDTest@73a1e9a9]" started-at="2025-06-10T08:01:23 GMT-07:00" name="tearDown" finished-at="2025-06-10T08:01:23 GMT-07:00" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

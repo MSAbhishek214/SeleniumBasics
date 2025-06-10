@@ -4,13 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="baseURL" value="https://rahulshettyacademy.com/dropdownsPractise/"/>
     <classes>
-      <class name="tests.AutoSuggestiveDDTest">
+      <class name="tests.DropdownLocatorsTest">
         <methods>
-          <include name="validateCorrectDropDownSelected"/>
+          <include name="validateAdultCountIncreased"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.AutoSuggestiveDDTest -->
+      </class> <!-- tests.DropdownLocatorsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SeleniumBasics] -->
