@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SeleniumBasics">
-  <test name="Test">
-  <parameter name="baseURL" value="https://rahulshettyacademy.com/dropdownsPractise/"></parameter>
-  <classes>
-  <class name="tests.AutoSuggestiveDDTest"></class>
-  <class name="tests.DropdownDynamicTest"></class>
-  <class name="tests.DropdownLocatorsTest"></class>
-  </classes> <!-- Classes-->
-  </test> <!-- Test -->
-</suite> <!-- SeleniumBasics -->
+	<test name="Test">
+		<parameter name="baseURL"
+			value="https://rahulshettyacademy.com/dropdownsPractise/"></parameter>
+		<classes>
+			<class name="tests.AutoSuggestiveDDTest"></class>
+			<class name="tests.DropdownDynamicTest"></class>
+			<class name="tests.DropdownLocatorsTest"></class>
+		</classes> <!--
+		Classes-->
+	</test> <!--
+	Test -->
+</suite> <!--
+SeleniumBasics -->

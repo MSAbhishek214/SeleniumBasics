@@ -1,74 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-10T08:01:19 GMT-07:00" name="SeleniumBasics" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="11040">
+  <suite started-at="2025-06-11T12:38:54 IST" name="SeleniumBasics" finished-at="2025-06-11T12:39:16 IST" duration-ms="22566">
     <groups>
     </groups>
-    <test started-at="2025-06-10T08:01:19 GMT-07:00" name="Test" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="11040">
-      <class name="tests.DropdownDynamicTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DropdownDynamicTest@7e6f74c]" started-at="2025-06-10T08:01:23 GMT-07:00" name="setup" finished-at="2025-06-10T08:01:25 GMT-07:00" duration-ms="2583" status="PASS">
+    <test started-at="2025-06-11T12:38:54 IST" name="Test" finished-at="2025-06-11T12:39:16 IST" duration-ms="22566">
+      <class name="tests.Assignment6Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment6Test@62ddbd7e]" started-at="2025-06-11T12:39:09 IST" name="setup" finished-at="2025-06-11T12:39:11 IST" duration-ms="1729" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://rahulshettyacademy.com/dropdownsPractise/]]>
+                <![CDATA[https://rahulshettyacademy.com/AutomationPractice/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateDynamicDropdown()[pri:0, instance:tests.DropdownDynamicTest@7e6f74c]" started-at="2025-06-10T08:01:25 GMT-07:00" name="validateDynamicDropdown" finished-at="2025-06-10T08:01:26 GMT-07:00" duration-ms="844" status="PASS">
+        <test-method signature="assignment6()[pri:0, instance:tests.Assignment6Test@62ddbd7e]" started-at="2025-06-11T12:39:11 IST" name="assignment6" finished-at="2025-06-11T12:39:11 IST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateDynamicDropdown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownDynamicTest@7e6f74c]" started-at="2025-06-10T08:01:26 GMT-07:00" name="tearDown" finished-at="2025-06-10T08:01:26 GMT-07:00" duration-ms="166" status="PASS">
+        </test-method> <!-- assignment6 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment6Test@62ddbd7e]" started-at="2025-06-11T12:39:11 IST" name="tearDown" finished-at="2025-06-11T12:39:11 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.DropdownDynamicTest -->
-      <class name="tests.DropdownLocatorsTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DropdownLocatorsTest@dd05255]" started-at="2025-06-10T08:01:26 GMT-07:00" name="setup" finished-at="2025-06-10T08:01:29 GMT-07:00" duration-ms="2370" status="PASS">
+      </class> <!-- tests.Assignment6Test -->
+      <class name="tests.Assignment1Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment1Test@34e9fd99]" started-at="2025-06-11T12:38:54 IST" name="setup" finished-at="2025-06-11T12:38:56 IST" duration-ms="2463" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://rahulshettyacademy.com/dropdownsPractise/]]>
+                <![CDATA[https://rahulshettyacademy.com/AutomationPractice/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateAdultCountIncreased()[pri:0, instance:tests.DropdownLocatorsTest@dd05255]" started-at="2025-06-10T08:01:29 GMT-07:00" name="validateAdultCountIncreased" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="896" status="PASS">
+        <test-method signature="assignment1()[pri:0, instance:tests.Assignment1Test@34e9fd99]" started-at="2025-06-11T12:38:56 IST" name="assignment1" finished-at="2025-06-11T12:38:56 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAdultCountIncreased -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownLocatorsTest@dd05255]" started-at="2025-06-10T08:01:30 GMT-07:00" name="tearDown" finished-at="2025-06-10T08:01:30 GMT-07:00" duration-ms="171" status="PASS">
+        </test-method> <!-- assignment1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment1Test@34e9fd99]" started-at="2025-06-11T12:38:56 IST" name="tearDown" finished-at="2025-06-11T12:38:57 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.DropdownLocatorsTest -->
-      <class name="tests.AutoSuggestiveDDTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AutoSuggestiveDDTest@73a1e9a9]" started-at="2025-06-10T08:01:19 GMT-07:00" name="setup" finished-at="2025-06-10T08:01:22 GMT-07:00" duration-ms="2970" status="PASS">
+      </class> <!-- tests.Assignment1Test -->
+      <class name="tests.Assignment7Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment7Test@74e52ef6]" started-at="2025-06-11T12:39:11 IST" name="setup" finished-at="2025-06-11T12:39:13 IST" duration-ms="1704" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://rahulshettyacademy.com/dropdownsPractise/]]>
+                <![CDATA[https://rahulshettyacademy.com/AutomationPractice/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateCorrectDropDownSelected()[pri:0, instance:tests.AutoSuggestiveDDTest@73a1e9a9]" started-at="2025-06-10T08:01:22 GMT-07:00" name="validateCorrectDropDownSelected" finished-at="2025-06-10T08:01:23 GMT-07:00" duration-ms="808" status="PASS">
+        <test-method signature="assignment7()[pri:0, instance:tests.Assignment7Test@74e52ef6]" started-at="2025-06-11T12:39:13 IST" name="assignment7" finished-at="2025-06-11T12:39:13 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCorrectDropDownSelected -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutoSuggestiveDDTest@73a1e9a9]" started-at="2025-06-10T08:01:23 GMT-07:00" name="tearDown" finished-at="2025-06-10T08:01:23 GMT-07:00" duration-ms="193" status="PASS">
+        </test-method> <!-- assignment7 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment7Test@74e52ef6]" started-at="2025-06-11T12:39:13 IST" name="tearDown" finished-at="2025-06-11T12:39:13 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.AutoSuggestiveDDTest -->
+      </class> <!-- tests.Assignment7Test -->
+      <class name="tests.Assignment8Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment8Test@6ed3ccb2]" started-at="2025-06-11T12:39:13 IST" name="setup" finished-at="2025-06-11T12:39:15 IST" duration-ms="1879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/AutomationPractice/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="assignment8()[pri:0, instance:tests.Assignment8Test@6ed3ccb2]" started-at="2025-06-11T12:39:15 IST" name="assignment8" finished-at="2025-06-11T12:39:16 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment8Test@6ed3ccb2]" started-at="2025-06-11T12:39:16 IST" name="tearDown" finished-at="2025-06-11T12:39:16 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Assignment8Test -->
+      <class name="tests.Assignment2Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment2Test@3cd3e762]" started-at="2025-06-11T12:38:57 IST" name="setup" finished-at="2025-06-11T12:38:57 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/angularpractice/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="assignment2()[pri:0, instance:tests.Assignment2Test@3cd3e762]" started-at="2025-06-11T12:38:57 IST" name="assignment2" finished-at="2025-06-11T12:38:58 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment2Test@3cd3e762]" started-at="2025-06-11T12:38:58 IST" name="tearDown" finished-at="2025-06-11T12:38:58 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Assignment2Test -->
+      <class name="tests.Assignment5Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment5Test@4116aac9]" started-at="2025-06-11T12:39:07 IST" name="setup" finished-at="2025-06-11T12:39:09 IST" duration-ms="2206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/nested_frames]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="assignment5()[pri:0, instance:tests.Assignment5Test@4116aac9]" started-at="2025-06-11T12:39:09 IST" name="assignment5" finished-at="2025-06-11T12:39:09 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment5Test@4116aac9]" started-at="2025-06-11T12:39:09 IST" name="tearDown" finished-at="2025-06-11T12:39:09 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Assignment5Test -->
+      <class name="tests.Assignment4Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment4Test@7eac9008]" started-at="2025-06-11T12:39:03 IST" name="setup" finished-at="2025-06-11T12:39:06 IST" duration-ms="3574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="assignment4()[pri:0, instance:tests.Assignment4Test@7eac9008]" started-at="2025-06-11T12:39:06 IST" name="assignment4" finished-at="2025-06-11T12:39:07 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment4Test@7eac9008]" started-at="2025-06-11T12:39:07 IST" name="tearDown" finished-at="2025-06-11T12:39:07 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Assignment4Test -->
+      <class name="tests.Assignment3Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.Assignment3Test@1fa121e2]" started-at="2025-06-11T12:38:58 IST" name="setup" finished-at="2025-06-11T12:38:59 IST" duration-ms="778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/loginpagePractise/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="assignment3()[pri:0, instance:tests.Assignment3Test@1fa121e2]" started-at="2025-06-11T12:38:59 IST" name="assignment3" finished-at="2025-06-11T12:39:03 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Assignment3Test@1fa121e2]" started-at="2025-06-11T12:39:03 IST" name="tearDown" finished-at="2025-06-11T12:39:03 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Assignment3Test -->
     </test> <!-- Test -->
   </suite> <!-- SeleniumBasics -->
 </testng-results>

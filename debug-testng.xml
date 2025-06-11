@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SeleniumBasics">
+	<test name="Test">
+		<parameter name="baseURL"
+			value="https://rahulshettyacademy.com/AutomationPractice/" />
+
+		<groups>
+			<run>
+				<include name="debug" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="tests.Assignment8Test">
+			</class>
+		</classes>
+	</test>
+</suite>

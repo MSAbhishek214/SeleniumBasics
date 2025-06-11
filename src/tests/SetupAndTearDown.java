@@ -9,15 +9,19 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class SetupAndTearDown {
 	// Create a web driver object
-	WebDriver driver;
+	protected WebDriver driver;
 	// Create a Web driver wait object
-	WebDriverWait wait;
+	protected WebDriverWait wait;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	@Parameters({"baseURL"})
 	public void setup(String baseURL) {
+		
+		WebDriverManager.chromedriver().setup();
 		// Initializing WebDriver for Chrome browser
 		driver = new ChromeDriver();
 		// Create a wait object for handling explicit wait scenarios
@@ -26,7 +30,7 @@ public class SetupAndTearDown {
 		driver.get(baseURL);
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		driver.quit();
 	}

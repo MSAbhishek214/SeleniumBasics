@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SeleniumBasics">
+	<test name="Test">
+		<classes>
+			<class name="tests.Assignment1Test">
+				<parameter name="baseURL"
+					value="https://rahulshettyacademy.com/AutomationPractice/"></parameter>
+			</class>
+			<class name="tests.Assignment2Test">
+				<parameter name="baseURL"
+					value="https://rahulshettyacademy.com/angularpractice/"></parameter>
+			</class>
+			<class name="tests.Assignment3Test">
+				<parameter name="baseURL"
+					value="https://rahulshettyacademy.com/loginpagePractise/"></parameter>
+			</class>
+			<class name="tests.Assignment4Test">
+				<parameter name="baseURL"
+					value="https://the-internet.herokuapp.com/windows"></parameter>
+			</class>
+			<class name="tests.Assignment5Test">
+				<parameter name="baseURL"
+					value="https://the-internet.herokuapp.com/nested_frames"></parameter>
+			</class>
+			<class name="tests.Assignment6Test">
+				<parameter name="baseURL"
+					value="https://rahulshettyacademy.com/AutomationPractice/"></parameter>
+			</class>
+			<class name="tests.Assignment7Test">
+				<parameter name="baseURL"
+					value="https://rahulshettyacademy.com/AutomationPractice/"></parameter>
+			</class>
+			<class name="tests.Assignment8Test">
+				<parameter name="baseURL"
+					value="https://rahulshettyacademy.com/AutomationPractice/"></parameter>
+			</class>
+		</classes>
+	</test>
+</suite>
